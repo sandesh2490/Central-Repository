@@ -8,13 +8,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout your source code repository (e.g., Git).
-                checkout scm
-            }
-        }
-
         stage('Build') {
             steps {
                 // Compile the Java code.
